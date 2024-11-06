@@ -1,0 +1,165 @@
+.top-container {
+    display: flex;
+    justify-content: center;
+  width: fit-content;
+}
+
+
+.text-name {
+    color: #1E1D1D;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22.40px;
+    letter-spacing: 0.32px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.msg-cele {
+    color: #323131;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.60px;
+    word-wrap: break-word;
+    position: absolute;
+    margin-top: 70px;
+    width: 18rem;
+    text-align: center;
+}
+
+.frame{
+    position: absolute;
+    width: 300px;
+    height: 248px;
+    margin-top: 138px;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+.image-left{
+    width: 49.5%;
+    height: 240px;
+    border-radius: 10px 0 0 10px;
+}
+
+.image-right{
+    width: 49.5%;
+    height: 240px;
+    border-radius: 0 10px 10px 0;
+}
+
+.vertical-line{
+    height: 240px;
+    width: 4px;
+    background-color: white;
+}
+
+.img-container{
+    display: flex;
+}
+
+.flying-heart {
+    position: absolute;
+    width: 35px;
+    margin-top: 95px;
+    z-index: 2;
+}
+
+.image-view{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img-container{
+    display: flex;
+}
+
+.image-right-bottom{
+    width: 100%;
+    height: 118px;
+    border-radius: 0 0 10px 0;
+}
+
+.image-right-top {
+    width: 100%;
+    height: 118px;
+    border-radius: 0 10px 0 0;
+}
+
+.horizontal-line-half{
+    height: 4px;
+    width: 143px;
+    background-color: white;
+}
+
+.office-party-top-balloons{
+    position: absolute;
+    width: 45px;
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.friends-party-bottom-bollons{
+    position: absolute;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-sidebar {
+    width: 60px;
+    transition: width 0.3s ease;
+    display: block;
+    height: 100vh;
+    background-color: gray;
+  }
+  
+  .custom-sidebar.expanded {
+    width: 250px;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .sidebar-menu li i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .sidebar-menu li span {
+    display: none;
+  }
+  
+  .custom-sidebar.expanded .sidebar-menu li span {
+    display: inline-block;
+  }
+
+  .main{
+   display: flex;
+  }
+
+
+  
+  
