@@ -1,0 +1,23 @@
+.img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    margin: 12vh 0;
+    position: relative;
+}
+
+.hello {
+    font: normal normal normal 100px / 1.4em worksans-semibold, 'work sans', sans-serif;
+}
+
+@media (max-width: 720px) {
+    .img {
+        width: 55vw;
+        height: 55vw;
+
+    }
+}
