@@ -7,6 +7,11 @@ export const routes: Routes = [
 
     },
     {
+        path: 'resume',
+        loadComponent: () => import('./components/resume/resume.component').then(m => m.ResumeComponent)
+
+    },
+    {
         path: '**',
         loadComponent: () => import('./components/landing/landing.component').then(m => m.LandingComponent)
     }
