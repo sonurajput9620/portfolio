@@ -5,10 +5,12 @@
       <span class="font-light text-xs">Software Engineer</span>
     </div>
     <div class="flex align-items-center gap-2">
+      <span class="p-1 cursor-pointer" [routerLink]="['/']">Home</span>
+      <div class="h-1rem border-1"></div>
       <span class="p-1 cursor-pointer" [routerLink]="['/resume']">Resume</span>
       <div class="h-1rem border-1"></div>
-      <span class="p-1 cursor-pointer">Projects</span>
+      <span class="p-1 cursor-pointer" [routerLink]="['/projects']">Projects</span>
       <div class="h-1rem border-1"></div>
-      <span class="p-1 cursor-pointer">Contact</span>
+      <span class="p-1 cursor-pointer" [routerLink]="['/contact']">Contact</span>
     </div>
   </header>
