@@ -1,1 +1,95 @@
-<p>contact works!</p>
+<p-toast />
+<div
+  class="w-full flex flex-wrap justify-content-center align-content-center xl:gap-0 md:gap-0 sm:gap-3"
+  style="margin: 40px 0"
+>
+  <div
+    class="xl:w-6 md:w-6 sm:w-full flex justify-content-center align-items-center py-2"
+  >
+    <div class="flex flex-column gap-2">
+      <h1 class="m-0">Let's connect.</h1>
+      <h2 class="m-0">Tell me about your</h2>
+      <h2 class="m-0">project.</h2>
+      <span>Let's create somthing amazing together.</span>
+
+      <div class="flex gap-2 align-items-center">
+        <p-button
+          icon="pi pi-envelope"
+          [outlined]="true"
+          severity="secondary"
+        />
+        <span class="flex flex-column">
+          <span class="font-bold"> Mail me at </span>
+          <span>
+            <a href="mailto:develop.sonu@gmail.com">{{
+              "develop.sonu@gmail.com"
+            }}</a>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="xl:w-6 md:w-6 sm:w-full py-2 w-full">
+    <div
+      class="w-full xl:w-8 md:w-8 sm:w-full p-4"
+      style="box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2)"
+    >
+      <h2>Send me message</h2>
+      <form [formGroup]="form" class="flex gap-2 flex-column">
+        <div class="flex flex-column gap-2">
+          <label for="username">Name*</label>
+          <input
+            pInputText
+            id="username"
+            aria-describedby="username-help"
+            formControlName="name"
+          />
+        </div>
+        <div class="flex flex-column gap-2">
+          <label for="email">Email*</label>
+          <input
+            pInputText
+            id="email"
+            aria-describedby="email-help"
+            formControlName="email"
+          />
+        </div>
+        <div class="flex flex-column gap-2">
+          <label for="subject">Subject*</label>
+          <input
+            pInputText
+            id="subject"
+            aria-describedby="subject-help"
+            formControlName="subject"
+          />
+        </div>
+        <div class="flex flex-column gap-2">
+          <label for="message">Message*</label>
+          <input pInputText id="message" aria-describedby="message-help" formControlName="message"/>
+        </div>
+
+        <p-button
+          label="Submit"
+          class="w-full"
+          [style]="{ width: '100%' }"
+          severity="secondary"
+          (onClick)="onSubmit()"
+        />
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<p-dialog header="Hi {{f.name}}" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+  
+  <div class="flex flex-column gap-1 mb-3">
+      <!-- <span for="username" class="font-semibold w-6rem"> </span> -->
+      <span>This form is not working, because it's not integrated with the backend. But I promise, your code will work perfectly.</span>
+      <span class="text-sm">For your convenience I copy your message to your clip board and rediecting you to mail.</span>
+   
+  </div>
+  <div class="flex justify-content-end gap-2">
+      <p-button label="Go to mail" (onClick)="copyMsg()" />
+  </div>
+</p-dialog>
