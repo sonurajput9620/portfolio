@@ -1,16 +1,40 @@
 <header class="flex justify-content-between flex-wrap gap-2">
-    <div class="flex gap-2 align-items-center cursor-pointer" [routerLink]="['/']">
-      <div class="circle"></div>
-      <span class="font-bold">Sonu</span>
-      <span class="font-light text-xs">Software Engineer</span>
-    </div>
-    <div class="flex align-items-center gap-2">
-      <span class="p-1 cursor-pointer" [routerLink]="['/']">Home</span>
-      <div class="h-1rem border-1"></div>
-      <span class="p-1 cursor-pointer" [routerLink]="['/resume']">Resume</span>
-      <div class="h-1rem border-1"></div>
-      <span class="p-1 cursor-pointer" [routerLink]="['/projects']">Projects</span>
-      <div class="h-1rem border-1"></div>
-      <span class="p-1 cursor-pointer" [routerLink]="['/contact']">Contact</span>
-    </div>
-  </header>
+  <div
+    class="flex gap-2 align-items-center cursor-pointer"
+    [routerLink]="['/']"
+  >
+    <div class="circle"></div>
+    <span class="font-bold">Sonu</span>
+    <span class="font-light text-xs">Software Engineer</span>
+  </div>
+  <div class="flex align-items-center gap-2">
+    <span
+      class="p-1 cursor-pointer"
+      [routerLink]="['/home']"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</span
+    >
+    <div class="h-1rem border-1"></div>
+    <span
+      class="p-1 cursor-pointer"
+      [routerLink]="['/resume']"
+      routerLinkActive="active-link"
+      >Resume</span
+    >
+    <div class="h-1rem border-1"></div>
+    <span
+      class="p-1 cursor-pointer"
+      [routerLink]="['/projects']"
+      routerLinkActive="active-link"
+      >Projects</span
+    >
+    <div class="h-1rem border-1"></div>
+    <span
+      class="p-1 cursor-pointer"
+      [routerLink]="['/contact']"
+      routerLinkActive="active-link"
+      >Contact</span
+    >
+  </div>
+</header>

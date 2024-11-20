@@ -4,3 +4,9 @@
     background-color: var(--yellow);
     border-radius: 50%;
 }
+
+.active-link {
+    color: #007bff; /* Change this to your desired color */
+    font-weight: bold; /* Optional: Make it bold */
+    text-decoration: underline; /* Optional: Add underline */
+  }
