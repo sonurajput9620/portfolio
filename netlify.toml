@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Disable Netlify's automatic Angular runtime plugin
+  NETLIFY_USE_ANGULAR_RUNTIME = "false"
+  # Skip framework detection to avoid wrong plugin selection
+  NETLIFY_SKIP_FRAMEWORK_DETECT = "true"
