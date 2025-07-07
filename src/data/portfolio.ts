@@ -3,10 +3,10 @@ export const personalInfo = {
   role: "Full Stack Developer",
   subtitle: "I build scalable web applications with beautiful UIs",
   phone: "+91 9717572728",
-  email: "your.email@example.com", // Update with your actual email
-  linkedin: "https://linkedin.com/in/yourprofile", // Update with your actual LinkedIn
-  github: "https://github.com/yourprofile", // Update with your actual GitHub
-  portfolio: "https://yourportfolio.com", // Update with your actual portfolio
+  email: "develop.sonu@gmail.com", // Update with your actual email
+  linkedin: "https://www.linkedin.com/in/sonu-a6465b22a", // Update with your actual LinkedIn
+  github: "https://github.com/sonurajput9620", // Update with your actual GitHub
+  portfolio: "https://dev-sonu-portfolio.netlify.app/", // Update with your actual portfolio
   resumeUrl: "/resume.pdf", // Add your resume PDF to public folder
   bio: "Web developer with 4+ years of experience specializing in Angular, JavaScript, TypeScript, HTML, and CSS. Proven track record in developing secure financial applications and SaaS solutions."
 };
@@ -165,7 +165,7 @@ export const socialLinks = [
   },
   {
     name: "Email",
-    url: "mailto:your.email@example.com",
+    url: "mailto:develop.sonu@gmail.com",
     icon: "Mail"
   }
 ];

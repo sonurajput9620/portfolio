@@ -17,8 +17,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay: index * 0.2 }}
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
+      // onHoverStart={() => setIsHovered(true)}
+      // onHoverEnd={() => setIsHovered(false)}
       className="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700 group"
     >
       {/* Project Image */}
@@ -117,7 +117,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex gap-3 pt-4">
+        {/* <div className="flex gap-3 pt-4">
           {project.liveUrl && (
             <a
               href={project.liveUrl}
@@ -140,7 +140,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               Code
             </a>
           )}
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
@@ -175,7 +175,7 @@ const Projects: React.FC = () => {
         </motion.div>
 
         {/* Filter Buttons */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -196,7 +196,7 @@ const Projects: React.FC = () => {
               {category.charAt(0).toUpperCase() + category.slice(1)}
             </button>
           ))}
-        </motion.div>
+        </motion.div> */}
 
         {/* Projects Grid */}
         <AnimatePresence mode="wait">

@@ -6,7 +6,7 @@ import { useDarkMode } from '../hooks/useDarkMode';
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { darkMode, toggleDarkMode } = useDarkMode();
+  // const { darkMode, toggleDarkMode } = useDarkMode();
 
   const navItems = [
     { label: 'Home', href: '#home' },
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
 
           {/* Dark Mode Toggle & Mobile Menu */}
           <div className="flex items-center space-x-4">
-            <motion.button
+            {/* <motion.button
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.5 }}
@@ -88,10 +88,10 @@ const Header: React.FC = () => {
               ) : (
                 <Moon className="w-5 h-5 text-gray-600" />
               )}
-            </motion.button>
+            </motion.button> */}
 
             {/* Mobile Menu Button */}
-            <motion.button
+            {/* <motion.button
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.6 }}
@@ -104,7 +104,7 @@ const Header: React.FC = () => {
               ) : (
                 <Menu className="w-6 h-6" />
               )}
-            </motion.button>
+            </motion.button> */}
           </div>
         </div>
 

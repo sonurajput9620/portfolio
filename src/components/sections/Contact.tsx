@@ -26,9 +26,11 @@ const Contact: React.FC = () => {
     // Simulate form submission (replace with actual form handling)
     try {
       await new Promise(resolve => setTimeout(resolve, 1000));
+      window.open(`mailto:develop.sonu@gmail.com?subject=${formData.subject}&body=${formData.message}`, '_blank');
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
+      console.error('Error submitting contact form:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -197,7 +199,7 @@ const Contact: React.FC = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors duration-300"
-                      placeholder="your.email@example.com"
+                      placeholder="develop.sonu@gmail.com"
                     />
                   </div>
                 </div>
