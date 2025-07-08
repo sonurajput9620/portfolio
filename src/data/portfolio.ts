@@ -14,33 +14,33 @@ export const personalInfo = {
 export const skills = {
   frontend: [
     { name: "Angular", level: 90 },
-    { name: "React", level: 85 },
+    { name: "React", level: 70 },
     { name: "JavaScript", level: 95 },
     { name: "TypeScript", level: 90 },
     { name: "HTML/CSS", level: 95 },
     { name: "RxJS", level: 85 },
     { name: "Angular Material", level: 80 },
-    { name: "Ionic", level: 75 },
-    { name: "PrimeNG", level: 80 },
-    { name: "Bootstrap", level: 85 },
-    { name: "Tailwind CSS", level: 80 }
+    { name: "Ionic", level: 70 },
+    { name: "PrimeNG", level: 90 },
+    { name: "Bootstrap", level: 80 },
+    { name: "Tailwind CSS", level: 65 }
   ],
   backend: [
-    { name: "Node.js", level: 85 },
+    { name: "Node.js", level: 80 },
     { name: "Express.js", level: 80 },
     { name: "REST APIs", level: 90 }
   ],
   databases: [
-    { name: "MySQL", level: 85 },
-    { name: "MongoDB", level: 80 }
+    { name: "MySQL", level: 75 },
+    { name: "MongoDB", level: 75 }
   ],
   tools: [
     { name: "Git/GitHub", level: 90 },
-    { name: "Bitbucket", level: 85 },
+    { name: "Bitbucket", level: 90 },
     { name: "MongoDB Atlas", level: 75 },
     { name: "Postman", level: 90 },
     { name: "Jira", level: 80 },
-    { name: "Confluence", level: 75 },
+    { name: "Confluence", level: 70 },
     { name: "MySQL Workbench", level: 80 }
   ]
 };
@@ -155,12 +155,12 @@ export const education = [
 export const socialLinks = [
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/yourprofile",
+    url: "https://www.linkedin.com/in/sonu-a6465b22a",
     icon: "LinkedIn"
   },
   {
     name: "GitHub",
-    url: "https://github.com/yourprofile",
+    url: "https://github.com/sonurajput9620",
     icon: "Github"
   },
   {
