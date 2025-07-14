@@ -228,20 +228,20 @@ const Projects: React.FC = () => {
         >
           <div className="bg-gradient-to-r from-primary-600 to-purple-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Like what you see?</h3>
-            <p className="text-lg mb-6 opacity-90">
+            <p className="text-lg mb-2 opacity-90">
               Let's discuss how I can help bring your ideas to life
             </p>
-            <button
+            {/* <button
               onClick={() => {
                 const contactSection = document.querySelector('#contact');
                 if (contactSection) {
                   contactSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
+              className="text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
             >
               Get In Touch
-            </button>
+            </button> */}
           </div>
         </motion.div>
       </div>

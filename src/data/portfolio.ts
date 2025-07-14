@@ -51,7 +51,7 @@ export const experiences = [
     title: "Software Engineer",
     company: "Mindrops Solution PVT LTD",
     duration: "May 2023 – Current",
-    location: "Remote",
+    location: "Delhi, India",
     type: "Full-time",
     responsibilities: [
       "Implemented multi-view calendar (day/week/month) with drag-and-drop appointment management",
@@ -66,7 +66,7 @@ export const experiences = [
     title: "Software Engineer",
     company: "Decimal Technology",
     duration: "June 2021 – April 2023",
-    location: "India",
+    location: "Gurugram, India",
     type: "Full-time",
     responsibilities: [
       "Developed secure web applications for banking sector clients",
