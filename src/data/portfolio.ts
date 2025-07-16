@@ -165,7 +165,7 @@ export const socialLinks = [
   },
   {
     name: "Email",
-    url: "mailto:develop.sonu@gmail.com",
+    url: "develop.sonu@gmail.com",
     icon: "Mail"
   }
 ];
