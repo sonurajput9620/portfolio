@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
         transition={{ duration: 0.6 }}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="fixed bottom-8 right-8 w-12 h-12 bg-primary-600 hover:bg-primary-700 text-white rounded-full shadow-lg flex items-center justify-center transition-colors duration-300 z-40"
+        className="fixed bottom-8 right-8 w-12 h-12 bg-primary-600 hover:bg-primary-700 text-gray-700 rounded-full shadow-lg flex items-center justify-center transition-colors duration-300 z-40"
         aria-label="Scroll to top"
       >
         <ArrowUp className="w-5 h-5" />
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                         section.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="hover:text-primary-400 transition-colors duration-300 font-medium"
+                    className="hover:text-primary-400 transition-colors duration-300 font-medium cursor-pointer"
                   >
                     {item}
                   </button>

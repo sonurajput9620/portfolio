@@ -127,14 +127,14 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+            className="absolute bottom-6 left-1/2 transform -translate-x-1/2"
           >
             <button
               onClick={scrollToAbout}
               className="flex flex-col items-center text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300 group"
               aria-label="Scroll to about section"
             >
-              <span className="text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span className="text-sm mb-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Scroll down
               </span>
               <motion.div
