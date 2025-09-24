@@ -8,7 +8,7 @@ export const personalInfo = {
   github: "https://github.com/sonurajput9620", // Update with your actual GitHub
   portfolio: "https://dev-sonu-portfolio.netlify.app/", // Update with your actual portfolio
   resumeUrl: "/resume.pdf", // Add your resume PDF to public folder
-  bio: "Web developer with 4+ years of experience specializing in Angular, JavaScript, TypeScript, HTML, and CSS. Proven track record in developing secure financial applications and SaaS solutions."
+  bio: "Full-stack developer with 4+ years of experience building scalable and secure enterprise-grade web applications. Proven expertise in Angular, React, Node.js, and TypeScript with hands-on contributions to projects in fintech, banking, and multi-tenant SaaS platforms. Strong problem-solver with experience integrating government APIs (UIDAI), video KYC, and secure payment gateways."
 };
 
 export const skills = {
@@ -50,7 +50,7 @@ export const experiences = [
     id: 1,
     title: "Software Engineer",
     company: "Mindrops Solution PVT LTD",
-    duration: "May 2023 – Current",
+    duration: "May 2023 – Sep 2025",
     location: "Delhi, India",
     type: "Full-time",
     responsibilities: [

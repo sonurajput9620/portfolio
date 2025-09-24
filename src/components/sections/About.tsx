@@ -85,11 +85,11 @@ const About: React.FC = () => {
                 <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
                   {personalInfo.bio}
                 </p>
-                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                {/* <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                   I'm passionate about creating scalable and efficient web solutions that solve real-world problems. 
                   My experience spans across frontend frameworks like Angular and React, backend technologies like Node.js, 
                   and database management with MySQL and MongoDB.
-                </p>
+                </p> */}
               </div>
 
               {/* Contact Info */}

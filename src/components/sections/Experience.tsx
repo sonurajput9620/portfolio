@@ -131,7 +131,7 @@ const Experience: React.FC = () => {
         {/* Timeline */}
         <div className="relative">
           {/* Timeline Line */}
-          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-primary-600 to-purple-600"></div>
+          {/* <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-primary-600 to-purple-600"></div> */}
 
           {/* Experience Items */}
           <div className="space-y-16">
