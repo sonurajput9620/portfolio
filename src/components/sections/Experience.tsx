@@ -155,7 +155,7 @@ const Experience: React.FC = () => {
         >
           <div className="bg-gradient-to-r from-primary-50 to-purple-50 dark:from-primary-900/20 dark:to-purple-900/20 rounded-2xl p-8 border border-primary-200 dark:border-primary-800">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              4+ Years of Professional Experience
+              5 Years of Professional Experience
             </h3>
             <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
               Throughout my career, I've had the opportunity to work on diverse projects ranging from 

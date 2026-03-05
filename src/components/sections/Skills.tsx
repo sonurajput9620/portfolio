@@ -55,7 +55,7 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({ title, skillsList, delay 
         {title}
       </h3>
       <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-4">
-        {skillsList.map((skill, index) => (
+        {skillsList?.map((skill, index) => (
           <SkillItem
             key={skill.name}
             name={skill.name}
@@ -107,8 +107,13 @@ const Skills: React.FC = () => {
             delay={0.6}
           />
           <SkillCategory
+            title="AI Tools"
+            skillsList={skills.aiTools}
+            delay={0.8}
+          />
+          <SkillCategory
             title="Tools"
-            skillsList={skills.tools}
+            skillsList={skills.devOps}
             delay={0.8}
           />
         </div>
