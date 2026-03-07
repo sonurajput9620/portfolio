@@ -40,10 +40,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           transition={{ duration: 0.3 }}
           className="absolute inset-0 bg-black/60 flex items-center justify-center"
         >
-          <div className="flex gap-4">
-            {project.liveUrl && (
+          {/* <div className="flex gap-4">
+            {project?.liveUrl && (
               <motion.a
-                href={project.liveUrl}
+                href={project?.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ scale: 0 }}
@@ -69,7 +69,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
                 <Github className="w-5 h-5" />
               </motion.a>
             )}
-          </div>
+          </div> */}
         </motion.div>
 
         {/* Category Badge */}
